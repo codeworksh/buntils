@@ -1,10 +1,18 @@
 {
-  "name": "@codeworksh/buntils",
-  "version": "0.0.0",
+  "name": "buntils",
+  "version": "0.1.0",
   "description": "Bun-native utility toolkit for reusable filesystem, async, and runtime helpers.",
   "author": "Sanchit Kudari",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeworksh/buntils.git"
+  },
+  "homepage": "https://github.com/codeworksh/buntils",
+  "bugs": {
+    "url": "https://github.com/codeworksh/buntils/issues"
+  },
   "module": "src/index.ts",
   "exports": {
     ".": "./src/index.ts"
@@ -23,6 +31,9 @@
   ],
   "engines": {
     "bun": ">=1.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.34.48"

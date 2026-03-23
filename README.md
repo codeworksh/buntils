@@ -5,7 +5,7 @@ Bun-native utility toolkit for reusable filesystem, async, and runtime helpers.
 Install:
 
 ```bash
-bun add buntils
+bun add @codeworksh/buntils
 ```
 
 ## License
